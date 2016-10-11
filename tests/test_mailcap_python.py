@@ -69,6 +69,7 @@ for entry_list in MAILCAPDICT_DEPRECATED.values():
     for entry in entry_list:
         entry.pop('lineno')
 
+
 class HelperFunctionTest(unittest.TestCase):
 
     def test_listmailcapfiles(self):
